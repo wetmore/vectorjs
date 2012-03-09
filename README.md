@@ -14,6 +14,6 @@ I wanted a reason to learn more about javascript and the module pattern, and I t
 No, Why?
 --------
 
-Oh, why did I try adding some weird semblance of type checking? Temporary insanity I suppose. The problem with vector operations in javascript is that while you're certainly allowed to scalar multiply a vector with a vector, the resulting NaNs aren't so fun in practice, and the problems they cause can be hard to find the root of. So I thought a basic type checking system might help stop those problems before they occur. The system won't stop you from doing whatever you please, but it will write a warning to __console.error__ and give you a bit of information about what function you messed up. 
+Oh, why did I try adding some weird semblance of type checking? Temporary insanity I suppose. The problem with vector operations in javascript is that while you're certainly allowed to scalar multiply a vector with a vector, the resulting NaNs aren't so fun in practice, and the problems they cause can be hard to find the root of. So I thought a basic type checking system might help stop those problems before they occur. The system won't stop you from doing whatever you please, but it will write a warning to __console.error__ and give you a bit of information about the error. 
 
 No extra effort is required on your part.
